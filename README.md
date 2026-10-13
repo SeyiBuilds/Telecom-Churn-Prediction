@@ -1,5 +1,9 @@
 # Telecom Customer Churn Prediction
 
+| Model Performance Comparison | Top Churn Drivers |
+|:---:|:---:|
+| ![Model performance comparison](Screenshots/model-comparison.jpg) | ![Feature importance](Screenshots/feature-importance.jpg) |
+
 Machine learning capstone project (Group Kilo) that predicts which telecom customers are likely to cancel their service, and identifies the factors that drive churn so the business can act on them.
 
 ## Results at a Glance
@@ -55,6 +59,8 @@ Columns cover customer demographics (gender, senior citizen, partner, dependents
 | Actual No Churn  | 947                | 89              |
 | Actual Churn     | 200                | 173             |
 
+![Confusion matrices](Screenshots/confusion-matrices.jpg)
+
 Logistic Regression catches 224 of 373 actual churners vs 173 for Random Forest.
 
 ## Key Drivers of Churn
@@ -92,6 +98,7 @@ The top 3 features account for about 53% of the model's predictive power. Contra
 ├── churn_prediction_complete.py           # Full pipeline: EDA, preprocessing, training, evaluation
 ├── TELECOM CHURN PREDICTION REPORT.docx   # Written project report with figures
 ├── TELECOM CHURN PRESENTATION.pptx        # 10-slide project presentation
+├── Screenshots/                           # Model comparison, feature importance, confusion matrices
 └── README.md
 ```
 
