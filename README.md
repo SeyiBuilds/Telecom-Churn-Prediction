@@ -99,6 +99,7 @@ The top 3 features account for about 53% of the model's predictive power. Contra
 ├── TELECOM CHURN PREDICTION REPORT.docx   # Written project report with figures
 ├── TELECOM CHURN PRESENTATION.pptx        # 10-slide project presentation
 ├── Screenshots/                           # Model comparison, feature importance, confusion matrices
+├── LICENSE
 └── README.md
 ```
 
@@ -130,10 +131,6 @@ The script prints metrics to the console and opens plots for churn distribution,
 
 Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Google Colab
 
-## Possible Improvements
+## License
 
-- Scale numeric features and tune hyperparameters (GridSearchCV).
-- Handle class imbalance (class weights or SMOTE) to push recall higher.
-- Try gradient boosting models (XGBoost, LightGBM).
-- Tune the decision threshold to trade precision for recall based on retention cost.
-- Report ROC-AUC and use cross-validation instead of a single split.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
